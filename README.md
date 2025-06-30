@@ -1,7 +1,3 @@
-Hier ist deine überarbeitete, ins Englische übersetzte und professionell formatierte `README.md` für dein Hackathon-Projekt **ChainProbe**. Die Blockchain-Auflistung habe ich in eine übersichtliche Tabelle umgewandelt:
-
----
-
 # ChainProbe – Onchain Chainlink Price Feeds for M2M Processing
 
 **ChainProbe** is an x402-capable MCP server that provides **all** Chainlink price feeds from an EVM blockchain in a single tool call. The data is fetched directly *onchain* and paid for via x402 micropayments using USDC. It's ideal for Machine-to-Machine (M2M) applications, autonomous agents, and AI systems.
