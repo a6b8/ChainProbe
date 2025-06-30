@@ -1,0 +1,27 @@
+{
+  "name": "chainprobe",
+  "version": "1.0.0",
+  "description": "**AgentPays** is a hackathon project that enables AI agents to autonomously pay for API calls and other resources using the [x402 payment protocol](https://x402.org). By integrating Claude with a crypto payment backend and the [Model Context Protocol (MCP)](https://github.com/flowMCP), this project introduces the **first native payment enforcement system embedded directly into MCP**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlowMCP/AgentPays.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FlowMCP/AgentPays/issues"
+  },
+  "homepage": "https://github.com/FlowMCP/AgentPays#readme",
+  "dependencies": {
+    "eventsource-parser": "^3.0.3",
+    "x402-core": "github:flowmcp/x402-core#d0806f174aa3b08dd9955dc8f3a6d8841466c375",
+    "schemaImporter": "github:flowmcp/flowMCP-schemas#5cc6b664dd9fba48f2ccb0d36b1d90d8c0015f9c",
+    "zod": "^3.25.67"
+  }
+}
