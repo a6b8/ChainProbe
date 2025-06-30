@@ -1,6 +1,8 @@
-# ChainProbe – Onchain Chainlink Price Feeds for M2M Processing
+# ChainProbe – Onchain Chainlink Price Feeds for M2M Processing with MCP
 
-**ChainProbe** is an x402-capable MCP server that provides **all** Chainlink price feeds from an EVM blockchain in a single tool call. The data is fetched directly *onchain* and paid for via x402 micropayments using USDC. It's ideal for Machine-to-Machine (M2M) applications, autonomous agents, and AI systems.
+**ChainProbe** is an **x402-capable MCP server** that delivers **onchain Chainlink price feeds** across multiple EVM blockchains in a single unified interface. Built on the **Model Context Protocol (MCP)**, it enables composable integration of blockchain data into AI, agentic systems, and Machine-to-Machine (M2M) workflows.
+
+By implementing MCP’s `resources` and `tools` features, ChainProbe exposes real-time price data streams that can be consumed via HTTP 402-based micropayments using USDC. No API keys. No offchain databases. Just streaming blockchain-native data, made machine-readable.
 
 ---
 
